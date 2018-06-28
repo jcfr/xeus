@@ -9,19 +9,21 @@
 #ifndef XMIDDLEWARE_HPP
 #define XMIDDLEWARE_HPP
 
+#include "xeus.hpp"
+
 #include <string>
 
 namespace xeus
 {
 
-    std::string get_controller_end_point();
-    std::string get_publisher_end_point();
+    XEUS_API std::string get_controller_end_point();
+    XEUS_API std::string get_publisher_end_point();
 
-    std::string get_end_point(const std::string& transport,
+    std::string XEUS_API get_end_point(const std::string& transport,
                               const std::string& ip,
                               const std::string& port);
 
-    int get_socket_linger();
+    int XEUS_API get_socket_linger();
 
 }
 

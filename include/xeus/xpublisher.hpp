@@ -11,10 +11,12 @@
 
 #include "zmq.hpp"
 
+#include "xeus.hpp"
+
 namespace xeus
 {
 
-    class xpublisher
+    class XEUS_API xpublisher
     {
     public:
 

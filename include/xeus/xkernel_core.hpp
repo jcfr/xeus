@@ -9,6 +9,8 @@
 #ifndef XKERNEL_CORE_HPP
 #define XKERNEL_CORE_HPP
 
+#include "xeus.hpp"
+
 #include <map>
 
 #include "xeus/xcomm.hpp"
@@ -20,7 +22,7 @@
 namespace xeus
 {
 
-    class xkernel_core
+    class XEUS_API xkernel_core
     {
     public:
 

@@ -9,12 +9,14 @@
 #ifndef XHEARTBEAT_HPP
 #define XHEARTBEAT_HPP
 
+#include "xeus.hpp"
+
 #include "zmq.hpp"
 
 namespace xeus
 {
 
-    class xheartbeat
+    class XEUS_API xheartbeat
     {
 
     public:
